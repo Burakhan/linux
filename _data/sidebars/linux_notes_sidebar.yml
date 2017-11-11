@@ -1,0 +1,33 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Linux Notlari
+  hide_sidebar: false
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Genel Bakış
+    output: web, pdf
+    folderitems:
+    - title: Linux Nedir ?
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: Dosya ve Dizin Yapısı
+      url: /dosya_ve_dizin_yapisi.html
+      output: web, pdf
+      type: homepage  
